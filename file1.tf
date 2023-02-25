@@ -9,8 +9,7 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"
-  profile = "default"
-}
+  }
 
 resource "aws_instance" "example" {
   ami           = "ami-0e742cca61fb65051"
